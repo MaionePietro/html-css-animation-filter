@@ -1,0 +1,76 @@
+/* ESERCIZIO 1 */
+.ex-1-square{
+    transition: 800ms;
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* ESERCIZIO 2 */
+.ex-2-square{
+    transition: 900ms;
+}
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* ESERCIZIO 3 */
+.ex-3-square{
+    transition: 800ms;
+}
+.ex-3-square:hover{
+    border-radius: 100px;
+}
+
+/* ESERCIZIO 4 */
+.ex-4-square{
+    transition: 800ms;
+}
+.ex-4-square:hover{
+    background-color: rgb(243,243,243);
+}
+
+/* ESERCIZIO 5 */
+.ex-5-square{
+    transition: 900ms;
+}
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+}
+
+/* ESERCIZIO 6 */
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+/* ESERCIZIO 7 */
+.ex-7-img{
+    transition: 800ms;
+}
+.ex-7-img:hover{
+    filter: sepia(0.4) grayscale(.5);
+}
+
+/* ESERCIZIO 8 */
+.ex-8-img{
+    transition: 800ms;
+}
+.ex-8-img:hover{
+    filter: sepia(0.4) grayscale(.5);
+    border-radius: 5px;
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img{
+    transition: 800ms;
+}
+.ex-9-img:hover{
+    filter: sepia(0.4) grayscale(.5);
+    border-radius: 5px;
+    transform: scale(1.5);
+}
